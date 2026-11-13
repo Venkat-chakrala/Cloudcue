@@ -1,0 +1,25 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary & checkpoint files
+.ipynb_checkpoints
+*.tmp
+*.log
+
+# Databases & Tracker logs
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# OS-specific
+Thumbs.db
+.DS_Store
+

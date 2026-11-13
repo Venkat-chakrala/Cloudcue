@@ -1,0 +1,44 @@
+{
+    "features": [
+        "temperature_2m",
+        "relative_humidity_2m",
+        "precipitation",
+        "wind_speed_10m",
+        "surface_pressure",
+        "hour_sin",
+        "hour_cos",
+        "month_sin",
+        "month_cos",
+        "day_of_week",
+        "dew_point",
+        "dew_point_spread",
+        "pressure_tendency_1h",
+        "pressure_tendency_3h",
+        "temperature_delta_1h",
+        "temperature_delta_3h",
+        "humidity_delta_1h",
+        "humidity_delta_3h",
+        "temperature_lag_1",
+        "temperature_lag_3",
+        "temperature_lag_6",
+        "temperature_lag_24",
+        "humidity_lag_1",
+        "humidity_lag_3",
+        "humidity_lag_24",
+        "pressure_lag_1",
+        "pressure_lag_3",
+        "wind_speed_lag_1",
+        "wind_speed_lag_3",
+        "precipitation_lag_1",
+        "precipitation_sum_3h"
+    ],
+    "models": {
+        "temperature": "XGBoost",
+        "humidity": "XGBoost",
+        "rainfall": "Random Forest"
+    },
+    "confidence_intervals": {
+        "temperature_rmse": 0.571808464928003,
+        "humidity_rmse": 3.3173916426745778
+    }
+}
